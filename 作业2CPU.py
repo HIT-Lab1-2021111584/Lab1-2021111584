@@ -17,5 +17,5 @@ matrix2 = torch.randn(dim2, dim3)
 
 # 调用CPU版本矩阵乘法
 result_cpu = matrix_multiply_cpu(matrix1, matrix2, dim1, dim2, dim3)
-
+print("\n")
 print("Result (CPU):\n", result_cpu)

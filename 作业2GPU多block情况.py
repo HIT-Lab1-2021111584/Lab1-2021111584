@@ -40,4 +40,3 @@ for i in range(num_blocks_dim1):
 
 # 将结果移回CPU并打印
 result = result.to("cpu")
-print("Result (GPU):\n", result)
