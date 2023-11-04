@@ -39,4 +39,4 @@ for i in range(num_blocks_dim1):
         result[start_row:end_row, start_col:end_col] = torch.matmul(sub_matrix1, sub_matrix2)
 
 # 将结果移回CPU并打印
-result = result.to("cpu")
+result = result.to("c pu")

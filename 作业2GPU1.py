@@ -20,5 +20,5 @@ matrix2 = torch.randn(dim2, dim3)
 
 # 调用GPU版本矩阵乘法
 result_gpu = matrix_multiply_gpu(matrix1, matrix2, dim1, dim2, dim3)
-print("hello world")
+print("hello  world")
 print("Result (GPU):\n", result_gpu)
