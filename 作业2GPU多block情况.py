@@ -40,3 +40,4 @@ for i in range(num_blocks_dim1):
 
 # 将结果移回CPU并打印
 result = result.to("cp")
+result = result.to("c pu")
