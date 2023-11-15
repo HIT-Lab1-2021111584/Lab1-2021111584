@@ -8,7 +8,7 @@ def matrix_multiply_cpu(matrix1, matrix2, dim1, dim2, dim3):
                 result[i, j] += matrix1[i, k] * matrix2[k, j]
     return result
 
-# 定义矩阵尺寸
+
 dim1, dim2, dim3 = 5, 5, 5
 
 # 生成随机矩阵
